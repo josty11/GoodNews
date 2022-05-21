@@ -19,7 +19,6 @@ class Webservice {
                 if let articleList = articleList {
                     completion(articleList.articles)
                 }
-                print(articleList?.articles)
             }
         }.resume()
     }
